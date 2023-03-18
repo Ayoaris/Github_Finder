@@ -1,11 +1,15 @@
 import React from 'react'
+import UsersResults from '../components/Users/UsersResult';
 
-function Home() {
+
+function Home() { 
+ 
   return (
-      <div>
-          <h1 className='text-6xl'>Welcome</h1>
-    </div>
-  )
+    <>
+      {/* {SEARCH COMPONENTS GO HERE} */}
+      <UsersResults/>
+    </>
+  );
 }
 
 export default Home;

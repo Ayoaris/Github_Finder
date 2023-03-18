@@ -9,7 +9,7 @@ function Navbar() {
         <div className="flex-none px-2 mx-2">
           <FaGithub className=" inline pr-2 text-3xl" />
           <Link to="/" className="text-2xl font-bold align-middle">
-            GithubFinder
+            <span className="text-teal-200">GithubFinder</span>
           </Link>
         </div>
         <div className="flex-1 px-2 mx-2">
